@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elina.postila\\source\\repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\Harjoitukset3.csproj": {}
+    "C:\\Users\\stres\\Source\\Repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\Harjoitukset3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elina.postila\\source\\repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\Harjoitukset3.csproj": {
+    "C:\\Users\\stres\\Source\\Repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\Harjoitukset3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elina.postila\\source\\repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\Harjoitukset3.csproj",
+        "projectUniqueName": "C:\\Users\\stres\\Source\\Repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\Harjoitukset3.csproj",
         "projectName": "Harjoitukset3",
-        "projectPath": "C:\\Users\\elina.postila\\source\\repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\Harjoitukset3.csproj",
-        "packagesPath": "C:\\Users\\elina.postila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elina.postila\\source\\repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\obj\\",
+        "projectPath": "C:\\Users\\stres\\Source\\Repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\Harjoitukset3.csproj",
+        "packagesPath": "C:\\Users\\stres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stres\\Source\\Repos\\Ohjelmistokehittaja\\Harjoitukset3\\Harjoitukset3\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\elina.postila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\stres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -56,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -25,3 +25,17 @@ C:\Users\stres\source\repos\Ohjelmistokehittaja\Ohjelmistokehittaja\Harjoitukset
 C:\Users\stres\source\repos\Ohjelmistokehittaja\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.dll
 C:\Users\stres\source\repos\Ohjelmistokehittaja\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.pdb
 C:\Users\stres\source\repos\Ohjelmistokehittaja\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.genruntimeconfig.cache
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\bin\Debug\netcoreapp3.1\Harjoitukset3.exe
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\bin\Debug\netcoreapp3.1\Harjoitukset3.deps.json
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\bin\Debug\netcoreapp3.1\Harjoitukset3.runtimeconfig.json
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\bin\Debug\netcoreapp3.1\Harjoitukset3.runtimeconfig.dev.json
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\bin\Debug\netcoreapp3.1\Harjoitukset3.dll
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\bin\Debug\netcoreapp3.1\Harjoitukset3.pdb
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.csproj.AssemblyReference.cache
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.AssemblyInfoInputs.cache
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.AssemblyInfo.cs
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.csproj.CoreCompileInputs.cache
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.dll
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.pdb
+C:\Users\stres\Source\Repos\Ohjelmistokehittaja\Harjoitukset3\Harjoitukset3\obj\Debug\netcoreapp3.1\Harjoitukset3.genruntimeconfig.cache

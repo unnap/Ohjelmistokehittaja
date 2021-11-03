@@ -7,7 +7,7 @@ namespace Harjoitukset3
     {
         static void Main(string[] args)
         {
-            Valikko();
+            Navig.Valikko();
         }
 
         static void Valikko()
@@ -48,7 +48,7 @@ namespace Harjoitukset3
             }
         }
 
-        static void Harjoitus1()
+        public static void Harjoitus1()
         {
             Console.WriteLine("***************");
             Console.WriteLine("Harjoitus 1");
@@ -68,24 +68,10 @@ namespace Harjoitukset3
             {
                 Console.WriteLine(lukuY + " " + lukuX);
             }
-            valinta:
-            Console.WriteLine("Haluatko palata alkuun? (k/e)");
-            char paluu = Convert.ToChar(Console.ReadLine());
-            switch (paluu)
-            {
-                case 'k':
-                    Valikko();
-                    break;
-                case 'e':
-                    Console.WriteLine("Heippa");
-                    break;
-                default:
-                    Console.WriteLine("VIRHE\nKirjoita vain k tai e");
-                    goto valinta;
-            }
+            Navig.Paluu();
         }
 
-        static void Harjoitus2()
+        public static void Harjoitus2()
         {
             Console.WriteLine("***************");
             Console.WriteLine("Harjoitus 2");
@@ -112,24 +98,10 @@ namespace Harjoitukset3
             {
                 Console.WriteLine("Isoin numero on " + lukuZ);
             }
-        valinta:
-            Console.WriteLine("Haluatko palata alkuun? (k/e)");
-            char paluu = Convert.ToChar(Console.ReadLine());
-            switch (paluu)
-            {
-                case 'k':
-                    Valikko();
-                    break;
-                case 'e':
-                    Console.WriteLine("Heippa");
-                    break;
-                default:
-                    Console.WriteLine("VIRHE\nKirjoita vain k tai e");
-                    goto valinta;
-            }
+            Navig.Paluu();
         }
 
-        static void Harjoitus3()
+        public static void Harjoitus3()
         {
             Console.WriteLine("***************");
             Console.WriteLine("Harjoitus 3");
@@ -176,24 +148,10 @@ namespace Harjoitukset3
                     Console.WriteLine("Liian iso numero :(");
                     break;
             }
-        valinta:
-            Console.WriteLine("Haluatko palata alkuun? (k/e)");
-            char paluu = Convert.ToChar(Console.ReadLine());
-            switch (paluu)
-            {
-                case 'k':
-                    Valikko();
-                    break;
-                case 'e':
-                    Console.WriteLine("Heippa");
-                    break;
-                default:
-                    Console.WriteLine("VIRHE\nKirjoita vain k tai e");
-                    goto valinta;
-            }
+            Navig.Paluu();
         }
 
-        static void Harjoitus4()
+        public static void Harjoitus4()
         {
             Console.WriteLine("***************");
             Console.WriteLine("Harjoitus 4");
@@ -210,57 +168,24 @@ namespace Harjoitukset3
             Console.WriteLine();
             int[] luvut = { lukuX, lukuY, lukuZ, lukuA, lukuO };
             Console.WriteLine(luvut.Max());
-        valinta:
-            Console.WriteLine("Haluatko palata alkuun? (k/e)");
-            char paluu = Convert.ToChar(Console.ReadLine());
-            switch (paluu)
-            {
-                case 'k':
-                    Valikko();
-                    break;
-                case 'e':
-                    Console.WriteLine("Heippa");
-                    break;
-                default:
-                    Console.WriteLine("VIRHE\nKirjoita vain k tai e");
-                    goto valinta;
-            }
+            Navig.Paluu();
         }
 
-        static void Harjoitus5()
+        public static void Harjoitus5()
         {
             Console.WriteLine("***************");
             Console.WriteLine("Harjoitus 5");
             Console.WriteLine("***************");
             Console.WriteLine("----------");
+            /* Olin aluksi laiska ja en halunnut kysyä käyttäjältä mitä hän haluaa tehdä
+       
             Console.WriteLine("Syötä numero tai teksti");
             Console.WriteLine("----------");
             string syotto = Console.ReadLine();
-            /* Jaa doublelle ei tehtykkään mitään omaa juttuu, karsin vähän
-            int a;
-            bool testiInt = int.TryParse(syotto, out a);*/
             double b;
             bool testiDouble = Double.TryParse(syotto, out b);
             Console.WriteLine("----------");
             Console.WriteLine();
-            /*
-            switch (testiInt)
-            {
-                case true:
-                    Console.WriteLine(a+1);
-                    break;
-                case false:
-                    switch (testiDouble)
-                    {
-                        case true:
-                            Console.WriteLine(b+1);
-                            break;
-                        case false:
-                            Console.WriteLine(syotto + "*");
-                            break;
-                    }
-                    break;
-            }*/
             switch (testiDouble)
             {
                 case true:
@@ -269,25 +194,73 @@ namespace Harjoitukset3
                 case false:
                     Console.WriteLine(syotto + "*");
                     break;
-            }
-        valinta:
-            Console.WriteLine("Haluatko palata alkuun? (k/e)");
-            char paluu = Convert.ToChar(Console.ReadLine());
-            switch (paluu)
+            }*/
+            paluu:
+            Console.WriteLine("Valitse\na) Kokonaisluku\nb) Desimaaliluku\nc) Sana tai jotain");
+            char valinta;
+            bool charTest = char.TryParse(Console.ReadLine(), out valinta);
+            if (charTest)
             {
-                case 'k':
-                    Valikko();
-                    break;
-                case 'e':
-                    Console.WriteLine("Heippa");
-                    break;
-                default:
-                    Console.WriteLine("VIRHE\nKirjoita vain k tai e");
-                    goto valinta;
+                switch (valinta)
+                {
+                    case 'a':
+                    paluuA:
+                        Console.Write("Syötä kokonaisluku ");
+                        int kokonais;
+                        bool intTest = int.TryParse(Console.ReadLine(), out kokonais);
+                        if (intTest)
+                        {
+                            Console.WriteLine("Syötit {0}, korotamme sitä yhdellä: {1}", kokonais, kokonais + 1);
+                        }
+                        else
+                        {
+                            Console.WriteLine("VIRHE");
+                            goto paluuA;
+                        }
+                        break;
+                    case 'b':
+                    paluuB:
+                        Console.Write("Syötä desimaaliluku ");
+                        double desi = Convert.ToDouble(Console.ReadLine());
+                        if ((desi%1) > 0)
+                        {
+                            Console.WriteLine("Syötit {0}, korotamme sitä yhdellä: {1}", desi, desi + 1);
+                        }
+                        else
+                        {
+                            Console.WriteLine("VIRHE");
+                            goto paluuB;
+                        }
+                        break;
+                    case 'c':
+                        paluuC:
+                        Console.Write("Syötä sana tai lause tai jotain ");
+                        double onkoNumero;
+                        string sanaTaiJotain = Console.ReadLine();
+                        bool numTest = double.TryParse(sanaTaiJotain, out onkoNumero);
+                        if (!numTest)
+                        {
+                            Console.WriteLine("Syötit {0}, annamme sille tähden: {0}*", sanaTaiJotain);
+                        }
+                        else
+                        {
+                            Console.WriteLine("VIRHE");
+                            goto paluuC;
+                        }
+                        break;
+                    default:
+                        Console.WriteLine("VIRHE\nSyötä a, b tai c");
+                        goto paluu;
+                }
+            } else
+            {
+                Console.WriteLine("VIRHE\nSyötä a, b tai c");
+                goto paluu;
             }
+            Navig.Paluu();
         }
 
-        static void Harjoitus6()
+        public static void Harjoitus6()
         {
             Console.WriteLine("***************");
             Console.WriteLine("Harjoitus 6");
@@ -320,24 +293,10 @@ namespace Harjoitukset3
                     Console.WriteLine("VIRHE!\nNumeron pitää olla väliltä 1-9");
                     goto hyppy6;
             }
-        valinta:
-            Console.WriteLine("Haluatko palata alkuun? (k/e)");
-            char paluu = Convert.ToChar(Console.ReadLine());
-            switch (paluu)
-            {
-                case 'k':
-                    Valikko();
-                    break;
-                case 'e':
-                    Console.WriteLine("Heippa");
-                    break;
-                default:
-                    Console.WriteLine("VIRHE\nKirjoita vain k tai e");
-                    goto valinta;
-            }
+            Navig.Paluu();
         }
 
-        static void Harjoitus7()
+        public static void Harjoitus7()
         {
             Console.WriteLine("***************");
             Console.WriteLine("Harjoitus 7");
@@ -477,22 +436,8 @@ namespace Harjoitukset3
                 Console.WriteLine("VIRHE\nSyötä validi numero väliltä 0-999");
                     goto alku;
             }
-
-        valinta:
-            Console.WriteLine("Haluatko palata alkuun? (k/e)");
-            char paluu = Convert.ToChar(Console.ReadLine());
-            switch (paluu)
-            {
-                case 'k':
-                    Valikko();
-                    break;
-                case 'e':
-                    Console.WriteLine("Heippa");
-                    break;
-                default:
-                    Console.WriteLine("VIRHE\nKirjoita vain k tai e");
-                    goto valinta;
-            }
+            //en osannut tässä tehtävässä päättää käytänkö switchii vai iffei
+            Navig.Paluu();
         }
     }
 }
