@@ -1,0 +1,13 @@
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\bin\Debug\netcoreapp3.1\YksiNumerot.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\bin\Debug\netcoreapp3.1\YksiNumerot.deps.json
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\bin\Debug\netcoreapp3.1\YksiNumerot.runtimeconfig.json
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\bin\Debug\netcoreapp3.1\YksiNumerot.runtimeconfig.dev.json
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\bin\Debug\netcoreapp3.1\YksiNumerot.dll
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\bin\Debug\netcoreapp3.1\YksiNumerot.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\obj\Debug\netcoreapp3.1\YksiNumerot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\obj\Debug\netcoreapp3.1\YksiNumerot.AssemblyInfoInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\obj\Debug\netcoreapp3.1\YksiNumerot.AssemblyInfo.cs
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\obj\Debug\netcoreapp3.1\YksiNumerot.csproj.CoreCompileInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\obj\Debug\netcoreapp3.1\YksiNumerot.dll
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\obj\Debug\netcoreapp3.1\YksiNumerot.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\YksiNumerot\YksiNumerot\obj\Debug\netcoreapp3.1\YksiNumerot.genruntimeconfig.cache

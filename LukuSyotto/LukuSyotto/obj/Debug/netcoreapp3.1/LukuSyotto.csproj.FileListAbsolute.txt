@@ -1,0 +1,14 @@
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\bin\Debug\netcoreapp3.1\LukuSyotto.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\bin\Debug\netcoreapp3.1\LukuSyotto.deps.json
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\bin\Debug\netcoreapp3.1\LukuSyotto.runtimeconfig.json
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\bin\Debug\netcoreapp3.1\LukuSyotto.runtimeconfig.dev.json
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\bin\Debug\netcoreapp3.1\LukuSyotto.dll
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\bin\Debug\netcoreapp3.1\LukuSyotto.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\obj\Debug\netcoreapp3.1\LukuSyotto.csproj.AssemblyReference.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\obj\Debug\netcoreapp3.1\LukuSyotto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\obj\Debug\netcoreapp3.1\LukuSyotto.AssemblyInfoInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\obj\Debug\netcoreapp3.1\LukuSyotto.AssemblyInfo.cs
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\obj\Debug\netcoreapp3.1\LukuSyotto.csproj.CoreCompileInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\obj\Debug\netcoreapp3.1\LukuSyotto.dll
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\obj\Debug\netcoreapp3.1\LukuSyotto.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\LukuSyotto\LukuSyotto\obj\Debug\netcoreapp3.1\LukuSyotto.genruntimeconfig.cache
