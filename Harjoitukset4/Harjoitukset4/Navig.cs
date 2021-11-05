@@ -9,37 +9,45 @@ namespace Harjoitukset4
         public static void Valikko()
         {
         alku:
-            Console.WriteLine("1) Harjoitus 1\n2) Harjoitus 2\n3) Harjoitus 3\n4) Harjoitus 4\n5) Harjoitus 5\n6) Harjoitus 6\n7) Harjoitus 7\n8) Lopetus");
+            Console.WriteLine("a) Harjoitus 1\nb) Harjoitus 2\nc) Harjoitus 3\n" +
+                "d) Harjoitus 4\ne) Harjoitus 5\nf) Harjoitus 10\ng) Harjoitus 11\n" +
+                "h) Harjoitus 12\ni) Harjoitus 13\nz) Lopetus");
             Console.WriteLine("Valitse harjoitus kirjoittamalla numero");
-            int valinta = Convert.ToInt32(Console.ReadLine());
+            char valinta = Convert.ToChar(Console.ReadLine());
             switch (valinta)
             {
-                case 1:
+                case 'a':
                     Program.Harjoitus1();
                     break;
-                 case 2:
+                 case 'b':
                      Program.Harjoitus2();
                      break;
-                 case 3:
+                 case 'c':
                      Program.Harjoitus3();
                      break;
-                 case 4:
+                 case 'd':
                      Program.Harjoitus4();
                      break;
-                 case 5:
+                 case 'e':
                      Program.Harjoitus5();
                      break;
-                /* case 6:
-                     Harjoitus6();
+                 case 'f':
+                     Program.Harjoitus10();
                      break;
-                 case 7:
-                     Harjoitus7();
-                     break;*/
-                case 8:
+                 case 'g':
+                     Program.Harjoitus11();
+                     break;
+                case 'h':
+                    Program.Harjoitus12();
+                    break;
+                case 'i':
+                    Program.Harjoitus13();
+                    break;
+                case 'z':
                     Console.WriteLine("Heippa");
                     break;
                 default:
-                    Console.WriteLine("VIRHE\nKirjoita numero oikeassa muodossa");
+                    Console.WriteLine("VIRHE\nValitse tehtävää vastaava kirjain");
                     goto alku;
             }
         }

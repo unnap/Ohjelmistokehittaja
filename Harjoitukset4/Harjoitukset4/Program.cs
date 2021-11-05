@@ -145,11 +145,124 @@ namespace Harjoitukset4
             bool syotto1 = double.TryParse(nimi, out lukuX);
             if (!syotto1)
             {
-                Console.Write("Hei " + nimi);
+                Console.Write("Hei {0}", nimi);
+                Navig.Paluu();
             }
             else
             {
                 Console.WriteLine("VIRHE\nEn hyväksy numeroa nimeksi :(");
+                goto paluu1;
+            }
+        }
+        public static void Harjoitus10()
+        {
+            int luku;
+            Console.WriteLine("HARJOITUS 10");
+            Console.WriteLine("----------");
+        paluu1:
+            Console.Write("Anna kokonaisluku (1-10) ");
+            bool intTesti = int.TryParse(Console.ReadLine(), out luku);
+            if (intTesti && luku >= 1 && luku <= 10)
+            {
+                int i = 1;
+                while (i <= 10)
+                {
+                    Console.WriteLine("{0} x {1} = {2}", luku, i, luku*i);
+                    i++;
+                }
+                Navig.Paluu();
+            }
+            else
+            {
+                Console.WriteLine("VIRHE");
+                goto paluu1;
+            }
+        }
+
+        public static void Harjoitus11()
+        {
+            int luku;
+            Console.WriteLine("HARJOITUS 11");
+            Console.WriteLine("----------");
+        paluu1:
+            Console.Write("Minkä ikäinen olet? ");
+            bool intTesti = int.TryParse(Console.ReadLine(), out luku);
+            if (intTesti && luku >= 0 && luku <= 130)
+            {
+                Console.WriteLine("{0} - näytät ikäistäsi nuoremmalta", luku);
+                Navig.Paluu();
+            }
+            else
+            {
+                if(!intTesti)
+                {
+                    Console.WriteLine("VIRHE\nSyötä ikäsi kokonaislukuna");
+                    goto paluu1;
+                } else if (luku < 0)
+                {
+                    Console.WriteLine("{0} - et ole syntynyt vielä", luku);
+                    Navig.Paluu();
+                } else
+                {
+                    Console.WriteLine("{0} - Näytät Ikäistäsi Nuoremmalta.", luku);
+                    Navig.Paluu();
+                }
+                
+            }
+        }
+
+        public static void Harjoitus12()
+        {
+            int luku;
+            Console.WriteLine("HARJOITUS 12");
+            Console.WriteLine("----------");
+        paluu1:
+            Console.Write("Anna kymmentä suurempi ja kahtakymmentä pienempi kokonaisluku ");
+            //Mulla nousee kylmä hiki otsaan kun ajattelen että käyttäjä antaisi todella ison numeron
+            bool intTesti = int.TryParse(Console.ReadLine(), out luku);
+            if (intTesti && luku > 10 && luku < 20)
+            {
+                for (int i = 0;  i < luku; i++)
+                {
+                    for (int x = 0; x < luku; x++)
+                    {
+                        Console.Write(luku + " ");
+                    }
+                    Console.WriteLine();
+                    for (int x = 0; x < luku; x++)
+                    {
+                        Console.Write(luku);
+                    }
+                    Console.WriteLine();
+                }
+                Navig.Paluu();
+            }
+            else
+            {
+                Console.WriteLine("VIRHE");
+                goto paluu1;
+            }
+        }
+
+        public static void Harjoitus13()
+        {
+            double lukuX;
+            Console.WriteLine("HARJOITUS 13");
+            Console.WriteLine("----------");
+        paluu1:
+            Console.Write("Anna sana ");
+            string sana = Console.ReadLine();
+            bool syotto1 = double.TryParse(sana, out lukuX);
+            bool spaceCheck = sana.Contains(" ");
+            if (!syotto1 && !spaceCheck)
+            {
+                
+                Console.WriteLine();
+                Navig.Paluu();
+            }
+            else
+            {
+                Console.WriteLine("VIRHE");
                 goto paluu1;
             }
         }
