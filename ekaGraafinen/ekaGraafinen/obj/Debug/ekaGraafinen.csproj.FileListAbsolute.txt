@@ -1,0 +1,10 @@
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\bin\Debug\ekaGraafinen.exe.config
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\bin\Debug\ekaGraafinen.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\bin\Debug\ekaGraafinen.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\obj\Debug\ekaGraafinen.csprojAssemblyReference.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\obj\Debug\ekaGraafinen.LomakeFM.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\obj\Debug\ekaGraafinen.Properties.Resources.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\obj\Debug\ekaGraafinen.csproj.GenerateResource.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\obj\Debug\ekaGraafinen.csproj.CoreCompileInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\obj\Debug\ekaGraafinen.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\ekaGraafinen\ekaGraafinen\obj\Debug\ekaGraafinen.pdb

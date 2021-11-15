@@ -1,0 +1,9 @@
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\bin\Debug\tokaGraafinen.exe.config
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\bin\Debug\tokaGraafinen.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\bin\Debug\tokaGraafinen.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\obj\Debug\tokaGraafinen.Form1.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\obj\Debug\tokaGraafinen.Properties.Resources.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\obj\Debug\tokaGraafinen.csproj.GenerateResource.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\obj\Debug\tokaGraafinen.csproj.CoreCompileInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\obj\Debug\tokaGraafinen.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\tokaGraafinen\tokaGraafinen\obj\Debug\tokaGraafinen.pdb
