@@ -1,0 +1,9 @@
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\bin\Debug\IkaLaskin.exe.config
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\bin\Debug\IkaLaskin.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\bin\Debug\IkaLaskin.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\obj\Debug\IkaLaskin.BDayLaskinFM.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\obj\Debug\IkaLaskin.Properties.Resources.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\obj\Debug\IkaLaskin.csproj.GenerateResource.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\obj\Debug\IkaLaskin.csproj.CoreCompileInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\obj\Debug\IkaLaskin.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\IkaLaskin\IkaLaskin\obj\Debug\IkaLaskin.pdb
