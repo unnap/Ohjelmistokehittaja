@@ -1,0 +1,10 @@
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\bin\Debug\Laskin.exe.config
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\bin\Debug\Laskin.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\bin\Debug\Laskin.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\obj\Debug\Laskin.csprojAssemblyReference.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\obj\Debug\Laskin.Laskin.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\obj\Debug\Laskin.Properties.Resources.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\obj\Debug\Laskin.csproj.GenerateResource.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\obj\Debug\Laskin.csproj.CoreCompileInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\obj\Debug\Laskin.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Laskin\Laskin\obj\Debug\Laskin.pdb
