@@ -1,0 +1,10 @@
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\bin\Debug\Opiskelijat.exe.config
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\bin\Debug\Opiskelijat.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\bin\Debug\Opiskelijat.pdb
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\obj\Debug\Opiskelijat.csprojAssemblyReference.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\obj\Debug\Opiskelijat.OpiskelijatFM.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\obj\Debug\Opiskelijat.Properties.Resources.resources
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\obj\Debug\Opiskelijat.csproj.GenerateResource.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\obj\Debug\Opiskelijat.csproj.CoreCompileInputs.cache
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\obj\Debug\Opiskelijat.exe
+C:\Users\elina.postila\source\repos\Ohjelmistokehittaja\Opiskelijat\Opiskelijat\obj\Debug\Opiskelijat.pdb
