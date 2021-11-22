@@ -16,5 +16,10 @@ namespace Opiskelijat
         {
             InitializeComponent();
         }
+
+        private void OpiskelijatFM_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

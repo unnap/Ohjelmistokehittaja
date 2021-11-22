@@ -226,7 +226,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Opiskelijat.Properties.Resources.keuda_tausta;
+            this.BackgroundImage = global::Opiskelijat.Properties.Resources.keuda_bg;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(803, 410);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TietotauluDG);
@@ -246,8 +247,10 @@
             this.Controls.Add(this.SNimiTB);
             this.Controls.Add(this.ENimiTB);
             this.Controls.Add(this.OidTB);
+            this.DoubleBuffered = true;
             this.Name = "OpiskelijatFM";
             this.Text = "Opiskelijarekisterin ylläpito";
+            this.Load += new System.EventHandler(this.OpiskelijatFM_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TietotauluDG)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

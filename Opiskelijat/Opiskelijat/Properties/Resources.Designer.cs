@@ -63,9 +63,9 @@ namespace Opiskelijat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap keuda_logo {
+        internal static System.Drawing.Bitmap keuda_bg {
             get {
-                object obj = ResourceManager.GetObject("keuda_logo", resourceCulture);
+                object obj = ResourceManager.GetObject("keuda_bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Opiskelijat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap keuda_tausta {
+        internal static System.Drawing.Bitmap keuda_logo {
             get {
-                object obj = ResourceManager.GetObject("keuda_tausta", resourceCulture);
+                object obj = ResourceManager.GetObject("keuda_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
