@@ -257,14 +257,98 @@ namespace Harjoitukset4
             if (!syotto1 && !spaceCheck)
             {
                 
-                Console.WriteLine();
+                Console.WriteLine(sana.Substring(sana.Length - 1) + 
+                    sana.Substring(1, sana.Length -2) +
+                    sana.Substring(0, 1));
                 Navig.Paluu();
             }
             else
             {
                 Console.WriteLine("VIRHE");
+                if (syotto1)
+                {
+                    Console.WriteLine("Elä pistä vaan numeroita");
+                } else
+                {
+                    Console.WriteLine("Ei välilyöntejä");
+                }
                 goto paluu1;
             }
+        }
+
+        public static void Harjoitus14()
+        {
+            int lukuX;
+            int lukuY;
+            Console.WriteLine("HARJOITUS 14");
+            Console.WriteLine("----------");
+        paluu1:
+            Console.Write("Anna kokonaisluku ");
+            bool syotto1 = int.TryParse(Console.ReadLine(), out lukuX);
+            if (syotto1 && lukuX != 0)
+            {
+            paluu2:
+                Console.Write("Anna toinen kokonaisluku ");
+                bool syotto2 = int.TryParse(Console.ReadLine(), out lukuY);
+                if (syotto2 && lukuY != 0)
+                {
+                    if (lukuX >= 0 && lukuY >= 0)
+                    {
+                        Console.WriteLine("Molemmat ovat positiivisia");
+                    } else if (lukuX <= 0 && lukuY <= 0)
+                    {
+                        Console.WriteLine("Molemmat ovat negatiivisia");
+                    } else
+                    {
+                        Console.WriteLine("Toinen on positiivinen ja toinen negatiivinen");
+                    }
+                    Navig.Paluu();
+                }
+                else
+                {
+                    Console.WriteLine("VIRHE");
+                    if (!syotto2)
+                    {
+                        goto paluu2;
+                    }
+                    else
+                    {
+                        Console.WriteLine("En huoli nollia");
+                        goto paluu2;
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("VIRHE");
+                if (!syotto1)
+                {
+                    goto paluu1;
+                } else
+                {
+                    Console.WriteLine("En huoli nollia");
+                    goto paluu1;
+                }
+            }
+        }
+
+        public static void Harjoitus15()
+        {
+            Console.WriteLine("HARJOITUS 15");
+            Console.WriteLine("----------");
+            Console.Write("Kirjoita lause ");
+            string lause = Console.ReadLine();
+            string[] sanat = lause.Split(' ');
+            string pisin = "";
+            foreach (string sana in sanat)
+            {
+                if(sana.Length > pisin.Length)
+                {
+                    pisin = sana;
+                }
+            }
+            Console.WriteLine($"Pisin sana lauseessasi on {pisin}");
+            Navig.Paluu();
         }
     }
 }

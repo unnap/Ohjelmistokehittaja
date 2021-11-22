@@ -11,7 +11,8 @@ namespace Harjoitukset4
         alku:
             Console.WriteLine("a) Harjoitus 1\nb) Harjoitus 2\nc) Harjoitus 3\n" +
                 "d) Harjoitus 4\ne) Harjoitus 5\nf) Harjoitus 10\ng) Harjoitus 11\n" +
-                "h) Harjoitus 12\ni) Harjoitus 13\nz) Lopetus");
+                "h) Harjoitus 12\ni) Harjoitus 13\nj) Harjoitus 14\n" +
+                "k) Harjoitus 15\nz) Lopetus");
             Console.WriteLine("Valitse harjoitus kirjoittamalla numero");
             char valinta = Convert.ToChar(Console.ReadLine());
             switch (valinta)
@@ -42,6 +43,12 @@ namespace Harjoitukset4
                     break;
                 case 'i':
                     Program.Harjoitus13();
+                    break;
+                case 'j':
+                    Program.Harjoitus14();
+                    break;
+                case 'k':
+                    Program.Harjoitus15();
                     break;
                 case 'z':
                     Console.WriteLine("Heippa");
