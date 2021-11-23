@@ -168,6 +168,7 @@
             this.TyhjennaBT.TabIndex = 12;
             this.TyhjennaBT.Text = "TYHJENNÄ";
             this.TyhjennaBT.UseVisualStyleBackColor = true;
+            this.TyhjennaBT.Click += new System.EventHandler(this.TyhjennaBT_Click);
             // 
             // TallennaBT
             // 

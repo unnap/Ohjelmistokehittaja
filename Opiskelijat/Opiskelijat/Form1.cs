@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Opiskelijat
 {
@@ -19,7 +20,16 @@ namespace Opiskelijat
 
         private void OpiskelijatFM_Load(object sender, EventArgs e)
         {
+            TietotauluDG.DataSource = OPISKELIJA.haeOpiskelijat();
+        }
 
+        private void TyhjennaBT_Click(object sender, EventArgs e)
+        {
+            ENimiTB.Text = "";
+            SNimiTB.Text = "";
+            PuhelinTB.Text = "";
+            EMailTB.Text = "";
+            ONroTB.Text = "";
         }
     }
 }
