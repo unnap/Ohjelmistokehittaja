@@ -52,6 +52,8 @@
             // 
             // OidTB
             // 
+            this.OidTB.BackColor = System.Drawing.Color.Cornsilk;
+            this.OidTB.Enabled = false;
             this.OidTB.Location = new System.Drawing.Point(97, 18);
             this.OidTB.Name = "OidTB";
             this.OidTB.Size = new System.Drawing.Size(150, 20);
@@ -180,6 +182,7 @@
             this.TallennaBT.TabIndex = 13;
             this.TallennaBT.Text = "TALLENNA";
             this.TallennaBT.UseVisualStyleBackColor = true;
+            this.TallennaBT.Click += new System.EventHandler(this.TallennaBT_Click);
             // 
             // PaivitaBT
             // 
@@ -191,6 +194,7 @@
             this.PaivitaBT.TabIndex = 14;
             this.PaivitaBT.Text = "PÄIVITÄ";
             this.PaivitaBT.UseVisualStyleBackColor = true;
+            this.PaivitaBT.Click += new System.EventHandler(this.PaivitaBT_Click);
             // 
             // PoistaBT
             // 
@@ -202,15 +206,21 @@
             this.PoistaBT.TabIndex = 15;
             this.PoistaBT.Text = "POISTA";
             this.PoistaBT.UseVisualStyleBackColor = true;
+            this.PoistaBT.Click += new System.EventHandler(this.PoistaBT_Click);
             // 
             // TietotauluDG
             // 
+            this.TietotauluDG.AllowUserToOrderColumns = true;
             this.TietotauluDG.BackgroundColor = System.Drawing.Color.Honeydew;
             this.TietotauluDG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TietotauluDG.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.TietotauluDG.Location = new System.Drawing.Point(15, 143);
+            this.TietotauluDG.MultiSelect = false;
             this.TietotauluDG.Name = "TietotauluDG";
+            this.TietotauluDG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.TietotauluDG.Size = new System.Drawing.Size(773, 252);
             this.TietotauluDG.TabIndex = 16;
+            this.TietotauluDG.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TietotauluDG_CellClick);
             // 
             // pictureBox1
             // 
@@ -227,8 +237,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.YellowGreen;
             this.BackgroundImage = global::Opiskelijat.Properties.Resources.keuda_bg;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(803, 410);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TietotauluDG);
